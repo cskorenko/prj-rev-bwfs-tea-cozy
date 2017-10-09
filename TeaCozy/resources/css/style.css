@@ -1,0 +1,147 @@
+* {
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+}
+
+body {
+    background-color: black;
+}
+
+/*Heading */
+
+.heading {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  padding-left: 10px;
+  border-bottom: 1px solid seashell;
+}
+
+#logo {
+  flex: 0 1 auto;
+  max-height: 50px;
+}
+
+.navagation {
+  flex: 0 1 auto;
+}
+
+.nav-link {
+  /*color: seashell;*/
+  font-size: 22px;
+  text-decoration: underline;
+  padding-right: 15px;
+}
+
+/*Mission */
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  flex-flow: column;
+  height: 700px;
+  background-image: url("file:///Users/christineskorenko/Documents/Projects/TeaCozy/resources/images/img-mission-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#our-mission {
+  background-color: black;
+  opacity: 1;
+  width: 1200px;
+  text-align: center;
+}
+
+/*Tea of the Month*/
+.tea-of-month {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  /*line-height: 4px;*/
+  padding-top: 60px;
+  overflow-y: auto;
+}
+
+#teas {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  width: 1000px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.tea-flavors {
+  width: 300px;
+  height: 200px;
+  padding: 10px 15px;
+}
+
+/*Locations */
+
+.locations-section {
+  /*display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;*/
+  min-height: 500px;
+  width: 1200px;
+  background-image: url("file:///Users/christineskorenko/Documents/Projects/TeaCozy/resources/images/img-locations-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.location-box {
+  display: flex;
+  flex-flow: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 110px;
+  padding-right: 110px;
+  opacity: 1;
+}
+
+.shops {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+}
+
+.center {
+  text-align: center;
+  padding-top: 40px;
+}
+
+
+/*Footer */
+
+#footer {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  align-content: space-between;
+  height: 200px;
+}
+
+#copy {
+  margin-left: 0;
+  padding-left: 20px;
+  align-self: flex-start;
+}
