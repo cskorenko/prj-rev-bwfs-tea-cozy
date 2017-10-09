@@ -5,7 +5,8 @@
 }
 
 body {
-    background-color: black;
+  background-color: black;
+  margin-top: 0;
 }
 
 /*Heading */
@@ -18,6 +19,11 @@ body {
   height: 69px;
   padding-left: 10px;
   border-bottom: 1px solid seashell;
+  width: 98%;
+  position: fixed;
+  z-index: 2;
+  background-color: black;
+  opacity: 1;
 }
 
 #logo {
@@ -48,6 +54,7 @@ body {
   background-image: url("file:///Users/christineskorenko/Documents/Projects/TeaCozy/resources/images/img-mission-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  padding-top: 245px;
 }
 
 #our-mission {
